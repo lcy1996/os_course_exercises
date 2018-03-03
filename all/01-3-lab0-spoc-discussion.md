@@ -41,6 +41,7 @@
     unsigned gd_off_31_16 : 16;        // high bits of offset in segment
  };
 ```
+表示该成员所占据的位数大小。
 
 - 对于如下的代码段，
 
@@ -93,4 +94,4 @@ bootasm.S,见实验报告。
  > > 利用宏进行数据类型转换；如 to_struct, 
  > > 常用功能的代码片段优化；如  ROUNDDOWN, SetPageDirty
 利用宏进行结构体赋值，SETGATE宏。
-利用宏进行常量定义，例如GD_KTEXT, T_SWITCH_TOK。
+   进行常量定义，例如GD_KTEXT, T_SWITCH_TOK。
